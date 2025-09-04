@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company S</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-lg p-6 md:p-8 sticky top-0 z-50 rounded-b-xl">
+        <div class="container flex justify-between items-center">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-wider">
+                COMPANY S
+            </h1>
+            <nav class="hidden md:flex space-x-6 text-lg font-medium">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">회사 소개</a>
+                <a href="#staff" class="text-gray-600 hover:text-blue-600 transition duration-300">구성원</a>
+                <a href="#departments" class="text-gray-600 hover:text-blue-600 transition duration-300">사업 영역</a>
+                <a href="#proposal" class="text-gray-600 hover:text-blue-600 transition duration-300">제안</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="py-12 md:py-20">
+        <div class="container text-center">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-4">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Company S</span>
+            </h2>
+            <p class="text-lg md:text-2xl text-gray-600 mb-8">
+                콘텐츠 제작, 매니지먼트 및 <br class="md:hidden">다양한 미디어 사업을 선도합니다.
+            </p>
+            <a href="#about" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                자세히 보기
+            </a>
+        </div>
+    </main>
+    
+    <!-- About Section -->
+    <section id="about" class="bg-white py-16 md:py-24 rounded-t-3xl shadow-lg">
+        <div class="container">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">회사 소개</h2>
+            <div class="space-y-12">
+                <!-- 회사 개요 슬라이드 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-inner border border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">회사 개요</h3>
+                    <ul class="text-lg text-gray-700 leading-relaxed space-y-2">
+                        <li><span class="font-bold text-blue-600">회사명:</span> COMPANY S</li>
+                        <li><span class="font-bold text-blue-600">CEO:</span> 고성덕</li>
+                        <li><span class="font-bold text-blue-600">설립일:</span> 2016년 6월 1일</li>
+                        <li><span class="font-bold text-blue-600">주소지:</span> 서울특별시 강남구 테헤란로82길 15, 1153호(대치동, 디아이타워)</li>
+                        <li><span class="font-bold text-blue-600">핵심 사업 영역:</span> 컨텐츠 제작·광고 에이전시·공연기획·기업컨설팅</li>
+                    </ul>
+                </div>
+                <!-- 비전 슬라이드 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-inner border border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">비전</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        COMPANY S는 끊임없이 변화하는 미디어 환경 속에서 창의적이고 혁신적인 콘텐츠를 통해 새로운 가치를 창출하고, 고객과 함께 성장하는 파트너가 되는 것을 목표로 합니다.
+                    </p>
+                </div>
+                <!-- 가치 슬라이드 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-inner border border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">핵심 가치</h3>
+                    <ul class="text-lg text-gray-700 leading-relaxed space-y-2 list-disc list-inside">
+                        <li><span class="font-bold text-purple-600">혁신:</span> 기존의 틀을 깨는 새로운 시도와 도전</li>
+                        <li><span class="font-bold text-purple-600">전문성:</span> 각 분야 최고의 전문가들이 모여 만드는 시너지</li>
+                        <li><span class="font-bold text-purple-600">파트너십:</span> 고객과 함께 성장하는 신뢰 기반의 협력</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Executive Staff Section -->
+    <section id="staff" class="bg-white py-16 md:py-24 rounded-b-3xl shadow-inner">
+        <div class="container">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">주요 구성원</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- CEO 고성덕 -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-2xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mt-4">고성덕</h3>
+                    <p class="text-lg text-gray-600 mb-4">CEO / Executive Content Creator</p>
+                    <ul class="text-sm text-gray-500 space-y-1 text-left">
+                        <li>· 김정훈 1인 기획사 대표 ('07-'11)</li>
+                        <li>· 메르센 엔터테인먼트 Co-founder ('12)</li>
+                        <li>· tvN 스무살 제작 PD 카카오 웹드라마 ('12-'13)</li>
+                        <li>· 싸이월드 MCN 총괄 ('20-'22)</li>
+                        <li>· 現 Company S CEO</li>
+                    </ul>
+                </div>
+                <!-- CPO 성진태 -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-2xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mt-4">성진태</h3>
+                    <p class="text-lg text-gray-600 mb-4">CPO</p>
+                    <ul class="text-sm text-gray-500 space-y-1 text-left">
+                        <li>· 도원경, 소찬휘, 슈가 등 제작</li>
+                        <li>· 박신양, 한가인 매니지먼트</li>
+                        <li>· 걸스데이, 베리굿 제작</li>
+                        <li>· 드라마 '동네변호사 조들호' 제작</li>
+                        <li>· 現 Company S CP</li>
+                    </ul>
+                </div>
+                <!-- PD 이경훈 -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-2xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mt-4">이경훈</h3>
+                    <p class="text-lg text-gray-600 mb-4">메인 PD</p>
+                    <ul class="text-sm text-gray-500 space-y-1 text-left">
+                        <li>· 유튜브 채널 하이픽션 음원 마케팅 콘텐츠 다수 제작</li>
+                        <li>· 예능 채널 와우엔터테인먼트 운영팀장</li>
+                        <li>· 개인 대형 유튜버 다수 컨설팅 및 PD</li>
+                        <li>· 現 오구라유나 유튜브 채널 오구오구 PD</li>
+                        <li>· 現 변호사 유튜브 채널 찐변스튜디오 PD</li>
+                        <li>· 現 IT/게임 유튜브 채널 소소한이야기 PD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Departments Section -->
+    <section id="departments" class="py-16 md:py-24">
+        <div class="container">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">사업 영역</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- 콘텐츠 제작 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-gray-400 hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-gray-600 text-4xl mb-4 text-center">🎬</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">콘텐츠 제작</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>유튜브 콘텐츠 제작</li>
+                        <li>숏폼 제작</li>
+                        <li>방송/광고 제작</li>
+                    </ul>
+                </div>
+                <!-- 섭외 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-gray-400 hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-gray-600 text-4xl mb-4 text-center">🤝</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">섭외</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>아이돌/배우 섭외</li>
+                        <li>모델 섭외</li>
+                        <li>AV배우 섭외</li>
+                    </ul>
+                </div>
+                <!-- 매니지먼트 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-gray-400 hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-gray-600 text-4xl mb-4 text-center">🎤</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">매니지먼트</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>셀럽 매니지먼트</li>
+                        <li>음반/OST 제작</li>
+                        <li>MCN</li>
+                    </ul>
+                </div>
+                <!-- 플랫폼 운영 및 블록체인 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-gray-400 hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="text-gray-600 text-4xl mb-4 text-center">🔗</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">플랫폼 운영 및 블록체인</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>SNS 플랫폼 운영</li>
+                        <li>블록체인 기반 서비스 제공</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposal Section -->
+    <section id="proposal" class="bg-gray-100 py-16 md:py-24">
+        <div class="container">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">제안</h2>
+            <div class="bg-white p-8 rounded-3xl shadow-xl">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">제안사항</h3>
+                <div class="flex flex-col items-start space-y-4">
+                    <div class="w-full">
+                        <li class="p-4 rounded-xl border-l-4 border-gray-400 bg-gray-50 list-none">
+                            <span class="font-semibold text-gray-700">Step 1:</span> 오구라 유나 MC 유튜브 웹 예능 제작 (캠페인 진행 및 다른 AV배우 섭외 및 출연 가능)
+                        </li>
+                    </div>
+                    <div class="flex items-center text-4xl text-gray-400 self-center">↓</div>
+                    <div class="w-full">
+                        <li class="p-4 rounded-xl border-l-4 border-gray-400 bg-gray-50 list-none">
+                            <span class="font-semibold text-gray-700">Step 2:</span> 오구라 유나 및 AV배우의 AI 웹툰 제작
+                        </li>
+                    </div>
+                    <div class="flex items-center text-4xl text-gray-400 self-center">↓</div>
+                    <div class="w-full">
+                        <li class="p-4 rounded-xl border-l-4 border-gray-400 bg-gray-50 list-none">
+                            <span class="font-semibold text-gray-700">Step 3:</span> 19금 아이돌 제작
+                        </li>
+                    </div>
+                    <div class="flex items-center text-4xl text-gray-400 self-center">↓</div>
+                    <div class="w-full">
+                        <li class="p-4 rounded-xl border-l-4 border-gray-400 bg-gray-50 list-none">
+                            <span class="font-semibold text-gray-700">Step 4:</span> 이후 유튜브, AI 웹툰 활용
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 bg-white p-8 rounded-3xl shadow-xl">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">세부 진행내용</h3>
+                <div class="space-y-6 text-lg text-gray-700">
+                    <div class="p-4 rounded-xl bg-gray-50 border border-gray-200">
+                        <p><span class="font-semibold">투자:</span> 1년 진행 비용 투자 (걸 그룹 제작 비용 및 출연료 별도)</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-gray-50 border border-gray-200">
+                        <p><span class="font-semibold">인센티브:</span> 성과에 따른 인센티브 지급</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-gray-50 border border-gray-200">
+                        <p><span class="font-semibold">진행내용:</span></p>
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                            <li>탑툰 유튜브 신규 채널 제작 (주 1회 업로드, 오구라 유나 MC)</li>
+                            <li>AI 웹툰 기획 및 AV 배우와 소통을 통한 웹툰 소스 제공</li>
+                            <li>걸 그룹 제작 및 홍보</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-300 py-6 text-center mt-12 rounded-t-xl">
+        <p>&copy; 2024 Company S. All rights reserved.</p>
+        <p class="text-sm mt-2">서울특별시 강남구 테헤란로82길 15, 1153호</p>
+    </footer>
+
+</body>
+</html>
